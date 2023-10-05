@@ -19,6 +19,14 @@
             "program": "test.py",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Python: test 3d",
+            "type": "python",
+            "request": "launch",
+            "program": "scada.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
