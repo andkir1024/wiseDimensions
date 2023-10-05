@@ -31,19 +31,19 @@ cur.execute("""CREATE TABLE IF NOT EXISTS users(
     count_of_send_message INTEGER         DEFAULT (0));
 """)
 
-cur.execute("""CREATE TABLE IF NOT EXISTS love(
-    love_id         INTEGER       PRIMARY KEY,
-    from_user       BIGINT,
-    to_user         BIGINT,
-    from_username   VARCHAR (150),
-    from_male       VARCHAR (1),
-    from_phone      VARCHAR (20),
-    from_first_name VARCHAR (150),
-    text            TEXT,
-    video           VARCHAR (150),
-    photo           VARCHAR (150),
-    active          BOOLEAN       DEFAULT (1) 
-                                  NOT NULL""")
+# cur.execute("""CREATE TABLE IF NOT EXISTS love(
+#     love_id         INTEGER       PRIMARY KEY,
+#     from_user       BIGINT,
+#     to_user         BIGINT,
+#     from_username   VARCHAR (150),
+#     from_male       VARCHAR (1),
+#     from_phone      VARCHAR (20),
+#     from_first_name VARCHAR (150),
+#     text            TEXT,
+#     video           VARCHAR (150),
+#     photo           VARCHAR (150),
+#     active          BOOLEAN       DEFAULT (1) 
+#                                   NOT NULL""")
 conn.commit()
 
 conn.close()

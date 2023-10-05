@@ -14,16 +14,7 @@ git config --global user.name "andkir1024"
 sudo apt-get install libzbar0
 sudo apt-get install tesseract-ocr-rus -y
 
-комманды чат бота
-
-start - Нажмите для запуска чат бота
-help - Нажмите для получения помощи
-reg - Нажмите для выбора ассистента
-
-test - тестирование не нажимайте
-
-test 0 - Тестировиние OKDesk
-
-test 1 - Тестировиние QR
-
-info 0 - режимы информирования о QR опрецияях (выводится полная информация)
+python -c "import open3d as o3d; \
+           mesh = o3d.geometry.TriangleMesh.create_sphere(); \
+           mesh.compute_vertex_normals(); \
+           o3d.visualization.draw(mesh, raw_mode=True)"
